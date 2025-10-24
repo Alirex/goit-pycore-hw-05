@@ -9,7 +9,7 @@ if TYPE_CHECKING:
     from goit_pycore_hw_05.task_1.typing import T_CACHING_FIBONACCI_CALLABLE
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def caching_fibonacci_fixture() -> T_CACHING_FIBONACCI_CALLABLE:
     return caching_fibonacci()
 
