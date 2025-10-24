@@ -8,7 +8,11 @@ authors = [
 ]
 requires-python = ">=3.14.0"
 dependencies = [
+    # Better classes and validation.
+    "pydantic>=2.12.3",
+    # Pretty terminal output.
     "rich>=14.2.0",
+    # CLI typed.
     "typer>=0.20.0",
 ]
 
@@ -23,7 +27,7 @@ dev = [
 
 [project.scripts]
 task_3 = "goit_pycore_hw_05.task_3:main"
-#task_4 = "goit_pycore_hw_05.task_4.main:main"
+task_4 = "goit_pycore_hw_05.task_4.main:main"
 
 [build-system]
 requires = ["uv_build>=0.9.5,<0.10.0"]
