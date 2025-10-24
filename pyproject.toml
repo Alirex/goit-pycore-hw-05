@@ -19,7 +19,6 @@ dev = [
 
 
 [project.scripts]
-#task_1 = "goit_pycore_hw_04.task_1.main:main"
 #task_2 = "goit_pycore_hw_04.task_2.main:main"
 #task_3 = "goit_pycore_hw_04.task_3.main:main"
 #task_4 = "goit_pycore_hw_04.task_4.main:main"
@@ -27,6 +26,9 @@ dev = [
 [build-system]
 requires = ["uv_build>=0.9.5,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
 
 [tool.mypy]
 strict = true
