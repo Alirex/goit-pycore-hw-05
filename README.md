@@ -18,6 +18,12 @@ For each task you can see:
 
 You can use command `uv run` to run the task.
 
+### Task 1
+
+```shell
+uv run pytest --verbose -m "task(id=1)" -k test_task
+```
+
 ---
 
 ## Dev
