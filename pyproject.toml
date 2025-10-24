@@ -110,4 +110,3 @@ runtime-evaluated-decorators = [
     "pydantic.validate_call",
     "app.command",
 ]
-
