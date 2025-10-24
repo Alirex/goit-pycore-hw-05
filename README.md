@@ -2,7 +2,7 @@
 
 Course: "Python Programming: Foundations and Best Practices 2.0"
 
-Topic: 6. "Working with files and the modular system"
+Topic: 8. "Functional Programming and Python Built-In Modules"
 
 ---
 
@@ -16,7 +16,7 @@ For each task you can see:
 - task solution
 - etc
 
-You can use command `uv run` to run the task.
+You can use command `uv run` to run some task solutions.
 
 ### Task 1
 
@@ -53,7 +53,7 @@ uv run pytest --verbose -m "task(id=2)"
 Check the source code:
 
 - [main.py](src/goit_pycore_hw_05/task_3/main.py)
-- and related files
+- and [related files](src/goit_pycore_hw_05/task_3)
 
 Run tests:
 
@@ -159,7 +159,8 @@ pre-commit run --all-files
 
 ### Create a new project
 
-In case, if you need to create a new project:
+In case, if you need to create a new project with `src-layout` instead of default, created by PyCharm,
+use the following command inside the project directory:
 
 ```shell
 rm --recursive --force src pyproject.toml &&\
