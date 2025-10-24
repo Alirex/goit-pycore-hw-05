@@ -36,6 +36,18 @@ Run tests for all implementations:
 uv run pytest --verbose -m "task(id=1)"
 ```
 
+### Task 2
+
+Check the source code of the main implementation:
+
+- [main.py](src/goit_pycore_hw_05/task_2/main.py)
+
+Run tests:
+
+```shell
+uv run pytest --verbose -m "task(id=2)"
+```
+
 ---
 
 ## Dev
