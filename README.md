@@ -79,6 +79,26 @@ Also, CLI help is available:
 uv run task_3 --help
 ```
 
+### Task 4
+
+Check the source code of the decorator implementation:
+
+- [input_error.py](src/goit_pycore_hw_05/task_4/services/input_error.py)
+
+Run the app with automated interaction:
+
+```shell
+bash src/goit_pycore_hw_05/task_4/tests/test_interaction.sh
+```
+
+Details: [script](src/goit_pycore_hw_05/task_4/tests/test_interaction.sh)
+
+Run the app manually:
+
+```shell
+uv run task_4
+```
+
 ---
 
 ## Dev

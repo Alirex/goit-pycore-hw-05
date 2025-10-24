@@ -22,6 +22,7 @@ def input_error[**Parameters](
             #   But "task" requires using only these exceptions.
 
             # TODO: (?) use more custom exceptions for better error handling.
+
             return MessageResponse(
                 text=str(exc),
                 is_error=True,
