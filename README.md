@@ -151,7 +151,7 @@ pre-commit run --all-files
 
 ## Extra
 
-- Why is the `.idea` folder is stored in the repository?
+- Why is the `.idea` folder is partially stored in the repository?
   - [read (UKR)](https://github.com/Alirex/notes/blob/main/notes/ignore_or_not_ide_config/ukr.md)
 - Why `py.typed`
   - [mypy (ENG)](https://mypy.readthedocs.io/en/stable/installed_packages.html#creating-pep-561-compatible-packages)
