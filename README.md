@@ -20,13 +20,17 @@ You can use command `uv run` to run the task.
 
 ### Task 1
 
-Run tests for task 1:
+Check the source code of the main implementation:
+
+- [main.py](src/goit_pycore_hw_05/task_1/main.py)
+
+Run tests for the main implementation:
 
 ```shell
 uv run pytest --verbose -m "task(id=1)" -k test_task
 ```
 
-Run tests for all implementations of task 1:
+Run tests for all implementations:
 
 ```shell
 uv run pytest --verbose -m "task(id=1)"
