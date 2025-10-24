@@ -28,8 +28,14 @@ all
 change Bob +380220000000
 all
 bla
+add bla
+add Bob +380220000000
 add bla foo
 add bla foo141234
+phone
+change
+change z
+change z +380220000000
 exit
 EOF
 
