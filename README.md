@@ -38,7 +38,7 @@ uv run pytest --verbose -m "task(id=1)"
 
 ### Task 2
 
-Check the source code of the main implementation:
+Check the source code:
 
 - [main.py](src/goit_pycore_hw_05/task_2/main.py)
 
@@ -46,6 +46,37 @@ Run tests:
 
 ```shell
 uv run pytest --verbose -m "task(id=2)"
+```
+
+### Task 3
+
+Check the source code:
+
+- [main.py](src/goit_pycore_hw_05/task_3/main.py)
+- and related files
+
+Run tests:
+
+```shell
+uv run pytest --verbose -m "task(id=3)"
+```
+
+Run the task for the summarized data:
+
+```shell
+uv run task_3 files_default/task_3/logfile.log
+```
+
+Run the task for the log level:
+
+```shell
+uv run task_3 files_default/task_3/logfile.log error
+```
+
+Also, CLI help is available:
+
+```shell
+uv run task_3 --help
 ```
 
 ---

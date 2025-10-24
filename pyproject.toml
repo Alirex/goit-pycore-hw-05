@@ -7,7 +7,10 @@ authors = [
     { name = "alirex", email = "alirex.prime@gmail.com" }
 ]
 requires-python = ">=3.14.0"
-dependencies = []
+dependencies = [
+    "rich>=14.2.0",
+    "typer>=0.20.0",
+]
 
 [dependency-groups]
 dev = [
@@ -19,9 +22,8 @@ dev = [
 
 
 [project.scripts]
-#task_2 = "goit_pycore_hw_04.task_2.main:main"
-#task_3 = "goit_pycore_hw_04.task_3.main:main"
-#task_4 = "goit_pycore_hw_04.task_4.main:main"
+task_3 = "goit_pycore_hw_05.task_3:main"
+#task_4 = "goit_pycore_hw_05.task_4.main:main"
 
 [build-system]
 requires = ["uv_build>=0.9.5,<0.10.0"]

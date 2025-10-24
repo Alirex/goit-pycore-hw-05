@@ -61,8 +61,16 @@ repos:
     # Hooks with local scripts.
     hooks:
       - id: pytest
+        # Test suite.
         name: pytest
         entry: uv run pytest
+        language: system
+        pass_filenames: false
+
+      - id: task_3_help
+        # Check task_3 help.
+        name: task_3_help
+        entry: uv run task_3 --help
         language: system
         pass_filenames: false
 
