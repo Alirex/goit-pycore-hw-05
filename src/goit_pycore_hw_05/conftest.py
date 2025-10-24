@@ -32,7 +32,10 @@ def pytest_collection_modifyitems(
     package_root = pathlib.Path(__file__).parent.resolve()
 
     for item in items:
-        rel_path = pathlib.Path(item.fspath).relative_to(package_root)
+        try:
+            rel_path = pathlib.Path(item.fspath).relative_to(package_root)
+        except ValueError:
+            continue
 
         folder_name = rel_path.parts[0]
 
