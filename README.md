@@ -20,8 +20,16 @@ You can use command `uv run` to run the task.
 
 ### Task 1
 
+Run tests for task 1:
+
 ```shell
 uv run pytest --verbose -m "task(id=1)" -k test_task
+```
+
+Run tests for all implementations of task 1:
+
+```shell
+uv run pytest --verbose -m "task(id=1)"
 ```
 
 ---
